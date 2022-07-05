@@ -1,9 +1,9 @@
 const Header = (props) => {
   return (
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">        
-        <span class="navbar-brand mb-0 h1">Memory Pin Game</span>
-        <span class="navbar-brand mb-0 h1 d-flex">Score: {props.score}. Best: {props.best}.</span>
+    <nav className="navbar navbar-dark bg-dark">
+      <div className="container-fluid">        
+        <span className="navbar-brand mb-0 h1">Memory Pin Game</span>
+        <span className="navbar-brand mb-0 h1 d-flex">Score: {props.score}. Best: {props.best}.</span>
       </div>
     </nav>
   );
