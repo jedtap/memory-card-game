@@ -1,0 +1,16 @@
+.pins {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.pin {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+}

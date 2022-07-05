@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import './Styles/dummy.css'
+import Header from './Components/Header'
+import Instructions from './Components/Instructions'
 
 const App = () => {
   const [score, setScore] = useState(0);
-  const [best, setBest] = useState(0);
+  const [best, setBest] = useState(11);
   const [guessed, setGuessed] = useState([]);
 
   const resetGame = () => {
@@ -41,18 +44,23 @@ const App = () => {
   },[score]);
 
   return(<>
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">        
-        <span class="navbar-brand mb-0 h1">Memory Pin Game</span>
-        <span class="navbar-brand mb-0 h1 d-flex">aNavbar</span>
-      </div>
-    </nav>
-    <div>
-      <h1>Memory Pin Game</h1>
-      <p>Test your photographic memory with this game! Goal of the game is to click all 30 pins in a row without clicking the same pin twice. Got what it takes?</p>
+    <Header score={score} best={best} />
+    <Instructions />
+
+    <div className="pins">
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
+      <div className="pin"></div>
     </div>
-
-
   </>);
 
 }
