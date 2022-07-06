@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Styles/dummy.css'
+import './Styles/App.css'
 import Header from './Components/Header'
 import Instructions from './Components/Instructions'
 import randomPins from './Components/Randomizer'
@@ -7,7 +7,7 @@ import Pin from './Components/Pin'
 
 const App = () => {
   const [score, setScore] = useState(0);
-  const [best, setBest] = useState(11);
+  const [best, setBest] = useState(0);
   const [guessed, setGuessed] = useState([]);
 
   const resetGame = () => {
@@ -22,13 +22,14 @@ const App = () => {
     }
     setGuessed(guessed.concat(pin));
     setScore(score + 1);
-    if(score > best) { setBest(best + 1) };
+    if(score >= best) { setBest(best + 1) };
   }
 
   // Get best score from localStorage on component mount
   useEffect(()=>{
     const storedBest = JSON.parse(window.localStorage.getItem("storedBest"));
     if (storedBest) { setBest(storedBest); }
+    // window.localStorage.clear();
   },[])
 
   // Save best score in localStorage whenever 'best' updates
@@ -49,7 +50,7 @@ const App = () => {
     <Header score={score} best={best} />
     <Instructions />
     <div className="pins">
-      {randomPins().map((pin) => <Pin pin={pin} handleClick={handleClick}/>)}
+      {randomPins().map((pin) => <Pin pin={pin} handleClick={(handleClick)}/>)}
     </div>
   </>);
 
