@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/memory-pins-game/static/css/main.84e7599f.css",
+    "main.js": "/memory-pins-game/static/js/main.ab3f637b.js",
+    "static/media/22.png": "/memory-pins-game/static/media/22.21430dbe2eaddf8de4ce.png",
+    "static/media/28.png": "/memory-pins-game/static/media/28.7bdb2c45bcbb66e47451.png",
+    "static/media/6.png": "/memory-pins-game/static/media/6.2320d47be1a16ff50289.png",
+    "static/media/27.png": "/memory-pins-game/static/media/27.0cbafe79e64ef6a65d62.png",
+    "static/media/7.png": "/memory-pins-game/static/media/7.cb690aa7923ea034822c.png",
+    "static/media/17.png": "/memory-pins-game/static/media/17.4f7fe0fbdb7f5606041b.png",
+    "static/media/20.png": "/memory-pins-game/static/media/20.21a57c53a6bb4707337f.png",
+    "static/media/3.png": "/memory-pins-game/static/media/3.435a21e716b9e7be2b2a.png",
+    "static/media/18.png": "/memory-pins-game/static/media/18.923d50f91eac4fbb428c.png",
+    "static/media/23.png": "/memory-pins-game/static/media/23.7c8314c6fc2269fec3cf.png",
+    "static/media/21.png": "/memory-pins-game/static/media/21.5cf3049910f40e404290.png",
+    "static/media/19.png": "/memory-pins-game/static/media/19.c1dca2337d586de4516d.png",
+    "static/media/29.png": "/memory-pins-game/static/media/29.d92ca9e503632467604a.png",
+    "static/media/1.png": "/memory-pins-game/static/media/1.9e9e5c984c3d78b0c77f.png",
+    "static/media/2.png": "/memory-pins-game/static/media/2.66d7f34eb12f2addd945.png",
+    "static/media/11.png": "/memory-pins-game/static/media/11.95af919dc361fd7c0b58.png",
+    "static/media/10.png": "/memory-pins-game/static/media/10.197e39a3da5962f139ad.png",
+    "static/media/9.png": "/memory-pins-game/static/media/9.dbfc264810ad4b5795aa.png",
+    "static/media/24.png": "/memory-pins-game/static/media/24.c00a2726a58018b52f10.png",
+    "static/media/16.png": "/memory-pins-game/static/media/16.32aab9a8a90c1f70d291.png",
+    "static/media/14.png": "/memory-pins-game/static/media/14.38c13c954190a9cb3fd8.png",
+    "static/media/13.png": "/memory-pins-game/static/media/13.1d55197bfeb8b0f7c898.png",
+    "static/media/25.png": "/memory-pins-game/static/media/25.5a77c1501a85a388b119.png",
+    "static/media/12.png": "/memory-pins-game/static/media/12.a4552be09f47b3af2b61.png",
+    "static/media/5.png": "/memory-pins-game/static/media/5.a1171188dc415e5bb373.png",
+    "static/media/4.png": "/memory-pins-game/static/media/4.820d5d9ce6b44730a688.png",
+    "static/media/8.png": "/memory-pins-game/static/media/8.bcccac30a3da267129f0.png",
+    "static/media/15.png": "/memory-pins-game/static/media/15.f6282d65f71cb5c56c56.png",
+    "static/media/26.png": "/memory-pins-game/static/media/26.557f90008cf942fe5875.png",
+    "static/media/30.png": "/memory-pins-game/static/media/30.13ca72ea5a373829c2ab.png",
+    "index.html": "/memory-pins-game/index.html",
+    "main.84e7599f.css.map": "/memory-pins-game/static/css/main.84e7599f.css.map",
+    "main.ab3f637b.js.map": "/memory-pins-game/static/js/main.ab3f637b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84e7599f.css",
+    "static/js/main.ab3f637b.js"
+  ]
+}
