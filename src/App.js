@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './Styles/dummy.css'
 import Header from './Components/Header'
 import Instructions from './Components/Instructions'
+import randomPins from './Components/Randomizer'
+import Pin from './Components/Pin'
 
 const App = () => {
   const [score, setScore] = useState(0);
@@ -46,20 +48,8 @@ const App = () => {
   return(<>
     <Header score={score} best={best} />
     <Instructions />
-
     <div className="pins">
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
-      <div className="pin"></div>
+      {randomPins().map((pin) => <Pin pin={pin} handleClick={handleClick}/>)}
     </div>
   </>);
 
